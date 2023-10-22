@@ -1,0 +1,6 @@
+# Define the menu links for this module
+city_list.admin.structure.settings:
+  title: 'City List'
+  description: 'Configure City list entity'
+  route_name:  city_list.city_list_settings
+  parent: system.admin_structure

@@ -1,0 +1,8 @@
+name: Migration city
+description: Migrate json file to the drupal custom entity.
+type: module
+package: custom
+core: 10.x
+core_version_requirement: ^9 || ^10
+dependencies:
+  - city_list

@@ -1,0 +1,29 @@
+# Define the 'local' links for the module
+
+city_list.settings_tab:
+  route_name: city_list.city_list_settings
+  title: Settings
+  base_route: city_list.city_list_settings
+
+city_list.view:
+  route_name: entity.city_list.canonical
+  base_route: entity.city_list.canonical
+  title: View
+
+contact.page_edit:
+  route_name: entity.city_list.edit_form
+  base_route: entity.city_list.canonical
+  title: Edit
+
+contact.delete_confirm:
+  route_name:  entity.city_list.delete_form
+  base_route:  entity.city_list.canonical
+  title: Delete
+  weight: 10
+
+entity.city_list.collection:
+  title: 'City Listing'
+  route_name: entity.city_list.collection
+  description: 'City List'
+  weight: 10
+  base_route: 'system.admin_content'

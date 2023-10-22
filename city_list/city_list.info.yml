@@ -1,0 +1,6 @@
+name: City list
+description: Enhance the drupal functionality.
+type: module
+package: custom
+core: 10.x
+core_version_requirement: ^9 || ^10
